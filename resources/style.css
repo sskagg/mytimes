@@ -1,17 +1,45 @@
 header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  align-items: center;
+  border-bottom: 1px solid black;
 }
 
 .logo {
-  color: aquamarine;
   display: flex;
   align-items: center;
+  color: aquamarine;
+  border: 1px solid black;
 }
 
 nav span {
   display: inline-block;
+}
+
+.article {
+  border: 1px solid black;
+}
+
+.news {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
 }
